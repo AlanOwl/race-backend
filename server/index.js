@@ -18,7 +18,7 @@ app.use('/api', router)
 
 const start = async () => {
 	try {
-		app.listen(PORT, () => console.log(`Server started ${PORT}`))
+		app.listen(PORT, () => console.log(`Server started on ${PORT}`))
 	} catch (e) {
 		console.log(e)
 	}
